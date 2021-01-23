@@ -6,11 +6,12 @@ users:
     primary_group: shishi
     groups: [adm, audio, cdrom, dialout, floppy, video, plugdev, dip, netdev, sudo, lxd]
     homedir: /home/shishi
-    shell: /bin/bash
+    shell: /usr/bin/bash
     ssh_import_id: gh:shishi
     sudo: ALL=(ALL) NOPASSWD:ALL
 
 runcmd:
+  - mkdir -p /home/shishi/.local/bin
   - curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
-  - sudo mv ./mitamae-x86_64-linux /home/shishi/mitamae
-  - sudo chown shishi:shishi /home/shishi/mitamae
+  - mv ./mitamae-x86_64-linux /home/shishi/.local/bin/mitamae
+  - chown -R shishi:shishi /home/shishi/.local/
