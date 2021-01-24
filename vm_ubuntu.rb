@@ -2,6 +2,9 @@
 # multipass mount C:\Users\shishi\OneDrive\dev\src\github.com\shishi\setup_dev primary:~/setup_dev
 # ~/.local/bin/mitamae local /home/ubuntu/setup_dev/vm_ubuntu.rb
 
+# Admin PowerShell In Windows Host for kvm
+# Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
+
 include_recipe './recipes/basic_packages.rb'
 include_recipe './recipes/docker.rb'
 include_recipe './recipes/docker-compose.rb'
