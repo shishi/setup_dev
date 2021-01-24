@@ -1,10 +1,8 @@
-# multipass mount C:\Users\shishi\OneDrive\dev\key primary:~/key
-# multipass mount C:\Users\shishi\OneDrive\dev\src\github.com\shishi\setup_dev primary:~/setup_dev
-# ~/.local/bin/mitamae local /home/ubuntu/setup_dev/vm_ubuntu.rb
+# sudo visudo
+# shishi ALL=(ALL:ALL) ALL
+# install mitamae manually do like in cloud-init.yml
 
 include_recipe './recipes/basic_packages.rb'
-include_recipe './recipes/docker.rb'
-include_recipe './recipes/docker-compose.rb'
 include_recipe './recipes/emacs.rb'
 include_recipe './recipes/google_chrome.rb'
 include_recipe './recipes/google_cloud_sdk.rb'

@@ -1,8 +1,10 @@
-packages = %w(build-essential curl wget unzip python-is-python3 php golang golang-docker-credential-helpers
- mysql-client libmysqlclient-dev postgresql-client libpq-dev sqlite3 libsqlite3-dev
- imagemagick libmagick++-dev libnss3-tools redis-tools
- fonts-noto fonts-noto-cjk
- silversearcher-ag lv vim rclone fzf)
+packages = %w(
+  build-essential python-is-python3 php golang 
+  curl wget unzip golang-docker-credential-helpers silversearcher-ag lv vim rclone fzf
+  mysql-client libmysqlclient-dev postgresql-client libpq-dev sqlite3 libsqlite3-dev redis-tools
+  imagemagick libmagick++-dev
+  fonts-noto fonts-noto-cjk
+)
 
 execute 'install basic packages' do
   command <<-EOS
