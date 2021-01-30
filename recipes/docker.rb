@@ -1,4 +1,3 @@
-
 execute 'install docker-ce' do
   command <<-EOS
     sudo apt-get install -y --no-install-recommends apt-transport-https ca-certificates curl gnupg-agent software-properties-common
@@ -9,7 +8,7 @@ execute 'install docker-ce' do
   EOS
 end
 
-user = 'shishi'
+user = ENV['user'] || 'shishi'
 # execute 'sudo groupadd docker'
 execute 'after install docker' do
   command <<-EOS

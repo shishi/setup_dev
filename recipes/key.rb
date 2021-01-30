@@ -3,7 +3,7 @@ execute 'copy keys if in WSL' do
   only_if 'test -d /mnt/c/Users/shishi/OneDrive/dev/key'
 end
 
-user = 'shishi'
+user = ENV['user'] || 'shishi'
 
 execute 'copy keys if in multipass' do
   command <<-EOS

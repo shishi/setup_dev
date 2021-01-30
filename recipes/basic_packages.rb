@@ -1,5 +1,5 @@
 packages = %w(
-  build-essential python-is-python3 php golang 
+  build-essential python-is-python3 golang
   curl wget unzip golang-docker-credential-helpers silversearcher-ag lv vim rclone fzf
   mysql-client libmysqlclient-dev postgresql-client libpq-dev sqlite3 libsqlite3-dev redis-tools
   imagemagick libmagick++-dev
@@ -10,6 +10,7 @@ execute 'install basic packages' do
   command <<-EOS
     sudo apt-get update -y
     sudo apt-get install -y --no-install-recommends #{packages.join(' ')}
+    sudo apt-get upgrade -y
   EOS
 end
 
