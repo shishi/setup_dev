@@ -3,7 +3,7 @@ execute 'install rbenv' do
     sudo apt-get update -y
     sudo apt-get install -y --no-install-recommends autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev
     GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-    echo export PATH="$HOME/.rbenv/bin:$PATH" >> ~/.bash_profile
+    echo export PATH='$HOME/.rbenv/bin:$PATH' >> ~/.profile
   EOS
   not_if 'test -d ~/.rbenv'
 end
