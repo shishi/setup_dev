@@ -2,7 +2,7 @@
 # multipass mount C:\Users\shishi\OneDrive\dev\src\github.com\shishi\setup_dev primary:~/setup_dev
 # ~/.local/bin/mitamae local /home/ubuntu/setup_dev/vm_ubuntu.rb
 
-# Admin PowerShell In Windows Host for kvm
+# If HyperV, Admin PowerShell In Windows Host for kvm
 # Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
 
 include_recipe './recipes/basic_packages.rb'
@@ -22,4 +22,5 @@ include_recipe './recipes/fish.rb'
 include_recipe './recipes/inotify.rb'
 include_recipe './recipes/ghq.rb'
 include_recipe './recipes/ngrok.rb'
-# include_recipe './recipes/kvm.rb'
+include_recipe './recipes/kvm.rb'
+include_recipe './recipes/hashicorp.rb'
