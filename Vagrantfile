@@ -63,16 +63,17 @@ Vagrant.configure("2") do |config|
     curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
     mv ./mitamae-x86_64-linux /home/vagrant/.local/bin/mitamae
     ~/.local/bin/mitamae local /synced_home/OneDrive/dev/src/github.com/shishi/setup_dev/vagrant_ubuntu.rb
-  #   chmod 600  ~/.ssh/id_rsa
-  #   curl -LO https://github.com/x-motemen/ghq/releases/download/v1.1.5/ghq_linux_amd64.zip
-  #   unzip ghq_linux_amd64.zip
-  #   chmod +x ghq_linux_amd64/ghq
-  #   mkdir -p ~/.local/bin
-  #   mv ghq_linux_amd64/ghq ~/.local/bin
-  #   rm -r ghq_linux_amd64*
-  #   if [ -z $(git config ghq.root) ]; then
-  #     git config --global ghq.root ~/dev/src
-  #   fi
-  #   GIT_SSH_COMMAND='ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no' ~/.local/bin/ghq get -p git.pepabo.com/minne/setup-web-application
+
+    # chmod 600  ~/.ssh/id_rsa
+    # curl -LO https://github.com/x-motemen/ghq/releases/download/v1.1.5/ghq_linux_amd64.zip
+    # unzip ghq_linux_amd64.zip
+    # chmod +x ghq_linux_amd64/ghq
+    # mkdir -p ~/.local/bin
+    # mv ghq_linux_amd64/ghq ~/.local/bin
+    # rm -r ghq_linux_amd64*
+    # if [ -z $(git config ghq.root) ]; then
+    #   git config --global ghq.root ~/dev/src
+    # fi
+    # GIT_SSH_COMMAND='ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no' ~/.local/bin/ghq get -p git.pepabo.com/minne/setup-web-application
   SHELL
 end
