@@ -62,7 +62,7 @@ Vagrant.configure("2") do |config|
     mkdir -p /home/vagrant/.local/bin
     curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
     mv ./mitamae-x86_64-linux /home/vagrant/.local/bin/mitamae
-    ~/.local/bin/mitamae local /synced_home/OneDrive/dev/src/github.com/shishi/setup_dev/vagrant_ubuntu.rb
+    ~/.local/bin/mitamae local /vagrant/vagrant_ubuntu.rb
 
     # chmod 600  ~/.ssh/id_rsa
     # curl -LO https://github.com/x-motemen/ghq/releases/download/v1.1.5/ghq_linux_amd64.zip
