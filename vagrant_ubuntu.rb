@@ -1,12 +1,17 @@
-# install mitamae manually do like in cloud-init.yml
-# echo "shishi ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+# If HyperV, Admin PowerShell In Windows Host for kvm
+# Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
 
-include_recipe './recipes/wslconf.rb'
+# $Env:VAGRANT_EXPERIMENTAL = "disks"
+# vagrant up
+
+#  ~/.local/bin/mitamae local /synced_home/dev/src/github.com/shishi/setup_dev/vagrant_ubuntu.rb
+
+# include_recipe './recipes/wslconf.rb'
 
 include_recipe './recipes/basic_packages.rb'
 
-# include_recipe './recipes/docker.rb'
-# include_recipe './recipes/docker-compose.rb'
+include_recipe './recipes/docker.rb'
+include_recipe './recipes/docker-compose.rb'
 
 include_recipe './recipes/emacs.rb'
 # include_recipe './recipes/google_chrome.rb'

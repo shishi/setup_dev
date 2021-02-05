@@ -1,17 +1,21 @@
 packages = %w(
-  build-essential python-is-python3 golang
+  build-essential pkg-config python-is-python3 golang
   curl wget unzip golang-docker-credential-helpers silversearcher-ag lv vim rclone fzf
   mysql-client libmysqlclient-dev postgresql-client libpq-dev sqlite3 libsqlite3-dev redis-tools
-  imagemagick libmagick++-dev
+  imagemagick libmagickwand-dev
   fonts-noto fonts-noto-cjk
 )
 
+execute 'apt update' do
+  command "sudo apt-get update -y"
+end
+
+execute 'apt upgrade' do
+  command "sudo apt-get upgrade -y"
+end
+
 execute 'install basic packages' do
-  command <<-EOS
-    sudo apt-get update -y
-    sudo apt-get install -y --no-install-recommends #{packages.join(' ')}
-    sudo apt-get upgrade -y
-  EOS
+  command "sudo apt-get install -y --no-install-recommends #{packages.join(' ')}"
 end
 
 execute 'disable apache' do

@@ -1,4 +1,4 @@
-user = ENV['user'] || 'shishi'
+user = ENV.fetch('USER', 'shishi')
 
 execute 'copy wsl.conf' do
   command <<-EOS

@@ -3,14 +3,28 @@ execute 'copy keys if in WSL' do
   only_if 'test -d /mnt/c/Users/shishi/OneDrive/dev/key'
 end
 
-user = ENV['user'] || 'shishi'
-
 execute 'copy keys if in multipass' do
   command <<-EOS
     sudo cp -fr /home/ubuntu/key ~/
   EOS
   only_if 'test -d /home/ubuntu/key'
 end
+
+execute 'copy keys if in vagrant' do
+  command <<-EOS
+    sudo cp -fr /synced_home/dev/key ~/
+  EOS
+  only_if 'test -d /synced_home/dev/key'
+end
+
+execute 'copy keys if in vagrant ver.2' do
+  command <<-EOS
+    sudo cp -fr /synced_home/OneDrive/dev/key ~/key
+  EOS
+  only_if 'test -d /synced_home/OneDrive/dev/key'
+end
+
+user = ENV.fetch('USER', 'shishi')
 
 execute 'install ssh key' do
   command <<-EOS

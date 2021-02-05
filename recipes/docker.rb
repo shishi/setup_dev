@@ -8,11 +8,12 @@ execute 'install docker-ce' do
   EOS
 end
 
-user = ENV['user'] || 'shishi'
+user = ENV.fetch('USER', 'shishi')
+
 # execute 'sudo groupadd docker'
 execute 'after install docker' do
   command <<-EOS
     sudo usermod -aG docker #{user}
-    sudo systemctl enable docker
+    sudo systemctl enable --now docker
   EOS
 end
