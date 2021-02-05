@@ -1,6 +1,6 @@
 packages = %w(
   build-essential pkg-config python-is-python3 golang
-  curl wget unzip golang-docker-credential-helpers silversearcher-ag lv vim rclone fzf
+  git curl wget unzip golang-docker-credential-helpers silversearcher-ag lv vim rclone fzf
   mysql-client libmysqlclient-dev postgresql-client libpq-dev sqlite3 libsqlite3-dev redis-tools
   imagemagick libmagickwand-dev
   fonts-noto fonts-noto-cjk
