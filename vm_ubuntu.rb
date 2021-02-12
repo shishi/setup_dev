@@ -11,7 +11,7 @@
 # include_recipe './recipes/wslconf.rb'
 
 include_recipe './recipes/basic_packages.rb'
-include_recipe './recipes/virtualbox_guest.rb'
+include_recipe './recipes/virtualbox_guests.rb'
 
 include_recipe './recipes/docker.rb'
 include_recipe './recipes/docker-compose.rb'
@@ -27,6 +27,7 @@ include_recipe './recipes/nodejs.rb'
 include_recipe './recipes/samba.rb'
 include_recipe './recipes/vscode_liveshare.rb'
 include_recipe './recipes/yarn.rb'
+# include_recipe './recipes/ibus_skk.rb'
 
 include_recipe './recipes/key.rb'
 include_recipe './recipes/dotfiles.rb'
