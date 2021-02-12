@@ -1,9 +1,7 @@
 # If HyperV, Admin PowerShell In Windows Host for kvm
 # Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
 
-# multipass mount C:\Users\shishi\OneDrive\dev\key primary:~/key
-# multipass mount C:\Users\shishi\OneDrive\dev\src\github.com\shishi\setup_dev primary:~/setup_dev
-# ~/.local/bin/mitamae local /home/ubuntu/setup_dev/vm_ubuntu.rb
+# echo "shishi ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoer
 
 # include_recipe './recipes/wslconf.rb'
 
