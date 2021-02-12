@@ -22,7 +22,7 @@ include_recipe './recipes/google_cloud_sdk.rb'
 include_recipe './recipes/inotify.rb'
 # include_recipe './recipes/kvm.rb'
 include_recipe './recipes/nodejs.rb'
-# include_recipe './recipes/samba.rb'
+include_recipe './recipes/samba.rb'
 include_recipe './recipes/vscode_liveshare.rb'
 include_recipe './recipes/yarn.rb'
 
