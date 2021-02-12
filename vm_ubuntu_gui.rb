@@ -15,7 +15,7 @@ include_recipe './recipes/docker-compose.rb'
 
 include_recipe './recipes/emacs.rb'
 include_recipe './recipes/google_chrome.rb'
-# include_recipe './recipes/vivaldi.rb'
+include_recipe './recipes/vivaldi.rb'
 include_recipe './recipes/google_cloud_sdk.rb'
 include_recipe './recipes/hashicorp.rb'
 include_recipe './recipes/inotify.rb'
