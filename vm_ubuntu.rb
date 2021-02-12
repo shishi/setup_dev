@@ -1,7 +1,8 @@
 # If HyperV, Admin PowerShell In Windows Host for kvm
 # Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
 
-# echo "shishi ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoer
+# echo "shishi ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+# sudo usermod -aG vboxsf shishi
 
 # include_recipe './recipes/wslconf.rb'
 
