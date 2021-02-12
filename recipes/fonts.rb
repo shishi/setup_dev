@@ -9,7 +9,7 @@ execute 'install MyricaM' do
 end
 
 execute 'install ricty' do
-  commands <<-EOS
+  command <<-EOS
     curl -sSL https://github.com/edihbrandon/RictyDiminished/archive/3.2.3.zip -o ricty.zip
     unzip ricty.zip
     mkdir -p ~/.fonts

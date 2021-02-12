@@ -6,7 +6,7 @@
 # mkdir -p /home/shishi/.local/bin
 # curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
 # mv ./mitamae-x86_64-linux /home/shishi/.local/bin/mitamae
-# ~/.local/bin/mitamae /media/sf_shishi/OneDrive/dev/src/github.com/shishi/setup_dev/vm_ubuntu.rb
+# ~/.local/bin/mitamae local /media/sf_shishi/OneDrive/dev/src/github.com/shishi/setup_dev/vm_ubuntu.rb
 
 # include_recipe './recipes/wslconf.rb'
 
