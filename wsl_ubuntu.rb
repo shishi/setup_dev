@@ -1,7 +1,5 @@
-# echo "shishi ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
-# mkdir -p /home/shishi/.local/bin
-# curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
-# mv ./mitamae-x86_64-linux /home/shishi/.local/bin/mitamae
+# sudo bash /mnt/c/Users/shishi/OneDrive/dev/src/github.com/shishi/setup_dev/sudo_with_nopassword.sh
+# bash /mnt/c/Users/shishi/OneDrive/dev/src/github.com/shishi/setup_dev/download_mitamae.sh
 # ~/.local/bin/mitamae local /mnt/c/Users/shishi/OneDrive/dev/src/github.com/shishi/setup_dev/wsl_ubuntu.rb
 
 include_recipe './recipes/wslconf.rb'

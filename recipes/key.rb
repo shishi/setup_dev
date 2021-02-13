@@ -24,6 +24,13 @@ execute 'copy keys if in vagrant ver.2' do
   only_if 'test -d /synced_home/OneDrive/dev/key'
 end
 
+execute 'copy keys if in normal virtualbox' do
+  command <<-EOS
+    sudo cp -fr /media/sf_shishi/OneDrive/dev/key/ ~/key
+  EOS
+  only_if 'test -d /media/sf_shishi/OneDrive/dev/key/'
+end
+
 user = ENV.fetch('USER', 'shishi')
 
 execute 'install ssh key' do
