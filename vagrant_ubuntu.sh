@@ -44,4 +44,6 @@ export DEBIAN_FRONTEND=noninteractive
 
 ./recipes/fish.sh
 
+# ./recipes/vscode.sh
+
 export DEBIAN_FRONTEND=dialog
