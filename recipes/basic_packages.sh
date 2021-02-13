@@ -10,7 +10,7 @@ packages+=("fonts-noto" "fonts-noto-cjk")
 
 set -x
 
-sudo apt-get update -yqq
+sudo apt-get update -qq
 sudo apt-get upgrade -yqq
 sudo apt-get install -yqq --no-install-recommends ${packages[*]}
 

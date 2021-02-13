@@ -20,7 +20,7 @@ elif [ -d /media/sf_shishi/OneDrive/dev/key ]; then
   cp -fr /media/sf_shishi/OneDrive/dev/key/ ~/key
 fi
 
-sudo chown -R $USER:$USER ~/key
+sudo chown -R ${USER}:${USER} ~/key
 
 cp -fr ~/key/.ssh ~/.ssh
 sudo chmod 600 ~/.ssh/id_rsa*
