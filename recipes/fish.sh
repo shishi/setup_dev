@@ -8,5 +8,5 @@ sudo apt-get install -yqq --no-install-recommends fish
 echo "exec fish" >> ~/.bashrc
 
 # fisher
-# curl https://git.io/fisher --create-dirs -sLo  ~/.config/fish/functions/fisher.fish
+# curl -fsSL --retry 3 https://git.io/fisher --create-dirs -sLo  ~/.config/fish/functions/fisher.fish
 # fisher
