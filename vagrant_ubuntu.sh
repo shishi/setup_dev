@@ -10,8 +10,8 @@ export DEBIAN_FRONTEND=noninteractive
 # $Env:VAGRANT_EXPERIMENTAL = "disks"
 # vagrant up
 
-# ./recipes/sudo_with_nopassword.sh
 # ./recipes/add_vboxsf_group.sh
+# ./recipes/sudo_with_nopassword.sh
 # ./recipes/wslconf.sh
 
 ./recipes/basic_packages.sh

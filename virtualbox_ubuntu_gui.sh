@@ -7,8 +7,8 @@ export DEBIAN_FRONTEND=noninteractive
 # If HyperV, Admin PowerShell In Windows Host for kvm
 # Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
 
+# ./recipes/add_vboxsf_group.sh
 ./recipes/sudo_with_nopassword.sh
-./recipes/add_vboxsf_group.sh
 # ./recipes/wslconf.sh
 
 ./recipes/basic_packages.sh
