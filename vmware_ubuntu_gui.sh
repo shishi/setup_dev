@@ -27,8 +27,8 @@ cd `dirname $0`
 # # ./recipes/kvm.sh
 # ./recipes/nodejs.sh
 # ./recipes/samba.sh
-./recipes/vscode_liveshare.sh
-./recipes/yarn.sh
+# ./recipes/vscode_liveshare.sh
+# ./recipes/yarn.sh
 
 ./recipes/key.sh
 ./recipes/dotfiles.sh
