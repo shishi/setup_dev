@@ -26,7 +26,6 @@ cd `dirname $0`
 # ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
 ./recipes/yarn.sh
-# ./recipes/ibus_skk.sh
 
 ./recipes/key.sh
 ./recipes/dotfiles.sh
@@ -40,5 +39,7 @@ cd `dirname $0`
 ./recipes/fish.sh
 
 # ./recipes/vscode.sh
+# ./recipes/dconf_editor.sh
+# ./recipes/ibus_skk.sh
 
 export DEBIAN_FRONTEND=dialog

@@ -24,12 +24,11 @@ cd `dirname $0`
 ./recipes/google_cloud_sdk.sh
 ./recipes/hashicorp.sh
 ./recipes/inotify.sh
-./recipes/kvm.sh
+# ./recipes/kvm.sh
 ./recipes/nodejs.sh
 ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
 ./recipes/yarn.sh
-# ./recipes/ibus_skk.sh
 
 ./recipes/key.sh
 ./recipes/dotfiles.sh
@@ -43,5 +42,7 @@ cd `dirname $0`
 ./recipes/fish.sh
 
 # ./recipes/vscode.sh
+# ./recipes/dconf_editor.sh
+# ./recipes/ibus_skk.sh
 
 export DEBIAN_FRONTEND=dialog
