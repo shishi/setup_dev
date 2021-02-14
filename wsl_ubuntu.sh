@@ -3,6 +3,7 @@
 set -ex
 
 export DEBIAN_FRONTEND=noninteractive
+cd `dirname $0`
 
 # ./recipes/add_vboxsf_group.sh
 # ./recipes/sudo_with_nopassword.sh

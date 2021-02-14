@@ -1,11 +1,12 @@
 #! /bin/bash
 
+# If HyperV, Admin PowerShell In Windows Host for kvm
+# Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
+
 set -ex
 
 export DEBIAN_FRONTEND=noninteractive
-
-# If HyperV, Admin PowerShell In Windows Host for kvm
-# Set-VMProcessor -VMName "VM_NAME" -ExposeVirtualizationExtensions $true
+cd `dirname $0`
 
 # ./recipes/add_vboxsf_group.sh
 ./recipes/sudo_with_nopassword.sh
