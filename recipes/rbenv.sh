@@ -11,7 +11,7 @@ elif [ -d ~/.rbenv ]; then
   GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git -C ~/.rbenv pull
 fi
 
-if [ ! ~/.rbenv/plugins/ruby-build ]; then
+if [ ! -d ~/.rbenv/plugins/ruby-build ]; then
   mkdir -p ~/.rbenv/plugins
   GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 elif [ -d ~/.rbenv/plugins/ruby-build ]; then
