@@ -1,7 +1,6 @@
-execute 'copy keys if in WSL' do
-  command ''
-  only_if 'test '
-end
+#! /bin/bash
+
+set -ex
 
 # WSL
 if [ -d /mnt/c/Users/shishi/OneDrive/dev/key ]; then
@@ -17,10 +16,10 @@ elif [ -d /synced_home/OneDrive/dev/key ]; then
   cp -fr /synced_home/OneDrive/dev/key ~/key
 # normal virtualbox
 elif [ -d /media/sf_shishi/OneDrive/dev/key ]; then
-  cp -fr /media/sf_shishi/OneDrive/dev/key/ ~/key
+  cp -fr /media/sf_shishi/OneDrive/dev/key ~/key
 # normal vmware
 elif [ -d /mnt/hgfs/shishi/OneDrive/dev/key ]; then
-  cp -fr /media/sf_shishi/OneDrive/dev/key/ ~/key
+  cp -fr /mnt/hgfs/shishi/OneDrive/dev/key ~/key
 fi
 
 sudo chown -R ${USER}:${USER} ~/key
