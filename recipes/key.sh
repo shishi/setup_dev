@@ -18,6 +18,9 @@ elif [ -d /synced_home/OneDrive/dev/key ]; then
 # normal virtualbox
 elif [ -d /media/sf_shishi/OneDrive/dev/key ]; then
   cp -fr /media/sf_shishi/OneDrive/dev/key/ ~/key
+# normal vmware
+elif [ -d /mnt/hgfs/shishi/OneDrive/dev/key ]; then
+  cp -fr /media/sf_shishi/OneDrive/dev/key/ ~/key
 fi
 
 sudo chown -R ${USER}:${USER} ~/key

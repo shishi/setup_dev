@@ -13,7 +13,7 @@ cd `dirname $0`
 # ./recipes/wslconf.sh
 
 ./recipes/basic_packages.sh
-./recipes/virtualbox_guests.sh
+# ./recipes/virtualbox_guests.sh
 
 ./recipes/docker.sh
 ./recipes/docker-compose.sh
