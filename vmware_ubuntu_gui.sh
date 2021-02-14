@@ -30,19 +30,19 @@ cd `dirname $0`
 # ./recipes/vscode_liveshare.sh
 # ./recipes/yarn.sh
 
-./recipes/key.sh
-./recipes/dotfiles.sh
+# ./recipes/key.sh
+# ./recipes/dotfiles.sh
 
-./recipes/rbenv.sh
-./recipes/pip.sh
-./recipes/ghq.sh
-./recipes/ngrok.sh
-./recipes/fonts.sh
+# ./recipes/rbenv.sh
+# ./recipes/pip.sh
+# ./recipes/ghq.sh
+# ./recipes/ngrok.sh
+# ./recipes/fonts.sh
 
-./recipes/fish.sh
+# ./recipes/fish.sh
 
-./recipes/vscode.sh
-./recipes/dconf_editor.sh
+# ./recipes/vscode.sh
+# ./recipes/dconf_editor.sh
 ./recipes/ibus_skk.sh
 
 export DEBIAN_FRONTEND=dialog
