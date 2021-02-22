@@ -22,7 +22,7 @@ cd `dirname $0`
 ./recipes/google_chrome.sh
 # ./recipes/vivaldi.sh
 ./recipes/google_cloud_sdk.sh
-./recipes/hashicorp.sh
+# ./recipes/hashicorp.sh
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
 ./recipes/nodejs.sh
@@ -37,7 +37,7 @@ cd `dirname $0`
 ./recipes/pip.sh
 ./recipes/ghq.sh
 ./recipes/ngrok.sh
-./recipes/fonts.sh
+# ./recipes/fonts.sh
 
 ./recipes/fish.sh
 

@@ -40,7 +40,7 @@ cd `dirname $0`
 ./recipes/pip.sh
 ./recipes/ghq.sh
 ./recipes/ngrok.sh
-./recipes/fonts.sh
+# ./recipes/fonts.sh
 
 ./recipes/fish.sh
 
