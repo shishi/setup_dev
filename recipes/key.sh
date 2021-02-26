@@ -24,5 +24,5 @@ sudo chown -R ${USER}:${USER} ~/key
 cp -fr ~/key/.ssh ~/
 sudo chmod 600 ~/.ssh/id_rsa*
 
-gpg --import ~/key/gpg/shishi.pub.gpg
-gpg --import --allow-secret-key-import ~/key/gpg/shishi.sub.gpg
+gpg --import --allow-secret-key-import ~/key/gpg/shishi.sec_sub.gpg
+gpg --import --allow-secret-key-import ~/key/gpg/shishisn.sec_sub.gpg
