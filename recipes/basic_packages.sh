@@ -6,7 +6,7 @@ packages=("build-essential" "pkg-config" "python-is-python3" "golang")
 packages+=("git" "curl" "wget" "unzip"  "silversearcher-ag" "ripgrep" "lv" "vim" "rclone" "fzf")
 packages+=("mysql-client" "libmysqlclient-dev" "postgresql-client" "libpq-dev" "sqlite3" "libsqlite3-dev" "redis-tools")
 packages+=("imagemagick" "libmagickwand-dev")
-packages+=("fonts-noto" "fonts-noto-cjk")
+packages+=("fonts-noto" "fonts-noto-cjk" "fonts-noto-color-emoji")
 
 set -x
 

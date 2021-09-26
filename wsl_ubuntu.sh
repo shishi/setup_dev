@@ -26,6 +26,7 @@ cd `dirname $0`
 # ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
 ./recipes/yarn.sh
+./recipes/wslu.sh
 
 ./recipes/key.sh
 ./recipes/dotfiles.sh
