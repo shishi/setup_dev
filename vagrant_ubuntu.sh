@@ -29,6 +29,7 @@ cd `dirname $0`
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
 ./recipes/nodejs.sh
+./recipes/rustup.sh
 ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
 ./recipes/yarn.sh
