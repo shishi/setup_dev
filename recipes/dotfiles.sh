@@ -11,4 +11,4 @@ elif [ -d ~/dev/src/github.com/shishi/dotfiles ]; then
   GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git -C ~/dev/src/github.com/shishi/dotfiles pull
 fi
 
-~/dev/src/github.com/shishi/dotfiles/ln_setup.sh
+~/dev/src/github.com/shishi/dotfiles/setup.sh
