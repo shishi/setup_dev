@@ -25,4 +25,5 @@ cp -fr ~/key/.ssh ~/
 sudo chmod 600 ~/.ssh/id_rsa*
 
 gpg --import --allow-secret-key-import ~/key/gpg/shishi.sec_sub.gpg
+gpg --import-ownertrust ~/key/gpg/shishi.ownertrust
 gpg --import --allow-secret-key-import ~/key/gpg/shishisn.sec_sub.gpg
