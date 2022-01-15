@@ -12,8 +12,8 @@ cd `dirname $0`
 ./recipes/basic_packages.sh
 # ./recipes/virtualbox_guests.sh
 
-# ./recipes/docker.sh
-# ./recipes/docker-compose.sh
+./recipes/docker.sh
+./recipes/docker-compose.sh
 
 ./recipes/emacs.sh
 # ./recipes/google_chrome.sh
