@@ -2,6 +2,6 @@
 
 set -ex
 
-if [ -e /mnt/z/save/_conf/win/wsl.conf ]; then
-  sudo cp /mnt/z/save/_conf/win/wsl.conf /etc/
+if [ -e ./files/wsl.conf ]; then
+  sudo cp ./files/wsl.conf /etc/
 fi
