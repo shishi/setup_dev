@@ -21,6 +21,6 @@ fi
 ~/.rbenv/src/configure
 make -C ~/.rbenv/src
 
-~/.rbenv/bin/rbenv install --skip-existing 3.0.0
-~/.rbenv/bin/rbenv global 3.0.0
+~/.rbenv/bin/rbenv install --skip-existing 3.1.0
+~/.rbenv/bin/rbenv global 3.1.0
 
