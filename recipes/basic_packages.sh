@@ -3,7 +3,7 @@
 set -e
 
 packages=("build-essential" "pkg-config" "python-is-python3" "golang" "gpg" "pass")
-packages+=("git" "curl" "wget" "unzip"  "silversearcher-ag" "ripgrep" "lv" "vim" "rclone" "fzf")
+packages+=("git" "curl" "wget" "unzip"  "silversearcher-ag" "ripgrep" "vim" "rclone" "fzf" "jq")
 packages+=("mysql-client" "libmysqlclient-dev" "postgresql-client" "libpq-dev" "sqlite3" "libsqlite3-dev" "redis-tools")
 packages+=("imagemagick" "libmagickwand-dev")
 packages+=("fonts-noto" "fonts-noto-extra" "fonts-noto-mono" "fonts-noto-cjk" "fonts-noto-cjk-extra" "fonts-noto-ui-core" "fonts-noto-ui-extra" "fonts-noto-color-emoji" "fonts-ibm-plex")
