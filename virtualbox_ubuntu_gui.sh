@@ -8,8 +8,9 @@ set -ex
 export DEBIAN_FRONTEND=noninteractive
 cd `dirname $0`
 
-# ./recipes/add_vboxsf_group.sh
 ./recipes/sudo_with_nopassword.sh
+
+./recipes/add_vboxsf_group.sh
 # ./recipes/wslconf.sh
 
 ./recipes/basic_packages.sh
@@ -17,20 +18,17 @@ cd `dirname $0`
 
 ./recipes/docker.sh
 ./recipes/docker-compose.sh
-
 ./recipes/emacs.sh
-./recipes/google_chrome.sh
-./recipes/vivaldi.sh
 ./recipes/google_cloud_sdk.sh
 # ./recipes/hashicorp.sh
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
 ./recipes/nodejs.sh
 ./recipes/rustup.sh
-./recipes/samba.sh
+# ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
 ./recipes/yarn.sh
-# ./recipes/wslu.sh
+./recipes/wslu.sh
 
 ./recipes/key.sh
 ./recipes/dotfiles.sh
@@ -39,12 +37,14 @@ cd `dirname $0`
 ./recipes/pip.sh
 ./recipes/ghq.sh
 ./recipes/ngrok.sh
-./recipes/fonts.sh
 
 ./recipes/fish.sh
 
-./recipes/vscode.sh
 ./recipes/dconf_editor.sh
+./recipes/fonts.sh
+./recipes/google_chrome.sh
 ./recipes/ibus_skk.sh
+./recipes/vivaldi.sh
+./recipes/vscode.sh
 
 export DEBIAN_FRONTEND=dialog
