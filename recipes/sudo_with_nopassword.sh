@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/bash
 
 if sudo -v &> /dev/null; then
   echo "Defaults exempt_group=sudo" | sudo tee -a /etc/sudoers

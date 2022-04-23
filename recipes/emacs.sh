@@ -1,3 +1,5 @@
+#! /usr/bin/bash
+
 set -ex
 
 sudo add-apt-repository -y ppa:kelleyk/emacs

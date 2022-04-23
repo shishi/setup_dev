@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/bash
 
 # already ssh keys installed
 
