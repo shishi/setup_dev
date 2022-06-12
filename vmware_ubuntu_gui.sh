@@ -17,7 +17,7 @@ cd `dirname $0`
 # ./recipes/virtualbox_guests.sh
 
 ./recipes/docker.sh
-./recipes/docker-compose.sh
+# ./recipes/docker-compose.sh
 ./recipes/emacs.sh
 ./recipes/google_cloud_sdk.sh
 # ./recipes/hashicorp.sh
