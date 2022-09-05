@@ -5,7 +5,7 @@ set -ex
 export DEBIAN_FRONTEND=noninteractive
 cd `dirname $0`
 
-./recipes/sudo_with_nopassword.sh
+# ./recipes/sudo_with_nopassword.sh
 
 # ./recipes/add_vboxsf_group.sh
 ./recipes/wslconf.sh
@@ -20,6 +20,7 @@ cd `dirname $0`
 # ./recipes/hashicorp.sh
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
+./recipes/neovim.sh
 ./recipes/nodejs.sh
 ./recipes/rustup.sh
 # ./recipes/samba.sh
