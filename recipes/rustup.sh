@@ -7,4 +7,4 @@ curl https://sh.rustup.rs -sSf | sh -s -- -y
 mkdir -p ~/.cargo
 cp ./files/cargo_config ~/.cargo/config
 
-# rustup component add rust-src rustfmt clippy
+~/.cargo/bin/rustup component add rust-src rustfmt clippy
