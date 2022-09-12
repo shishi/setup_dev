@@ -42,7 +42,6 @@ cd `dirname $0`
 ./recipes/actionlint.sh
 ./recipes/ngrok.sh
 ./recipes/tailscale.sh
-./recipes/gomi.sh
 
 ./recipes/fish.sh
 
