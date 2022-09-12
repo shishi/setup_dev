@@ -2,8 +2,8 @@
 
 set -e
 
-packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "golang" "gpg" "pass")
-packages+=("git" "curl" "wget" "unzip"  "silversearcher-ag" "ripgrep" "vim" "rclone" "fzf" "jq")
+packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "golang" "lua5.3" "gpg" "pass")
+packages+=("git" "curl" "wget" "unzip" "silversearcher-ag" "ripgrep" "vim" "rclone" "jq" "tidy")
 # packages+=("git" "curl" "wget" "unzip"  "silversearcher-ag" "ripgrep" "vim" "rclone" "fzf" "jq" "bat" "fd-find" "exa")
 packages+=("mysql-client" "libmysqlclient-dev" "postgresql-client" "libpq-dev" "sqlite3" "libsqlite3-dev" "redis-tools")
 packages+=("imagemagick" "libmagickwand-dev")

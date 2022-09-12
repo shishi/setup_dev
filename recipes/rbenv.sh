@@ -24,3 +24,4 @@ make -C ~/.rbenv/src
 ~/.rbenv/bin/rbenv install --skip-existing 3.1.2
 ~/.rbenv/bin/rbenv global 3.1.2
 
+~/.rbenv/shims/gem install erb_lint mdl rubocop

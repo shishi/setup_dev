@@ -36,8 +36,12 @@ cd `dirname $0`
 
 ./recipes/rbenv.sh
 ./recipes/pip.sh
+./recipes/fzf.sh
 ./recipes/ghq.sh
+./recipes/actionlint.sh
 ./recipes/ngrok.sh
+./recipes/tailscale.sh
+./recipes/gomi.sh
 
 ./recipes/fish.sh
 

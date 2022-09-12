@@ -8,3 +8,4 @@ mkdir -p ~/.cargo
 cp ./files/cargo_config ~/.cargo/config
 
 ~/.cargo/bin/rustup component add rust-src rustfmt clippy
+~/.cargo/bin/cargo install bat exa fd-find selene stylua taplo-cli
