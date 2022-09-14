@@ -2,7 +2,7 @@
 
 set -e
 
-packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "golang" "lua5.3" "gpg" "pass")
+packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "golang" "luajit" "gpg" "pass")
 packages+=("git" "curl" "wget" "unzip" "silversearcher-ag" "ripgrep" "vim" "rclone" "jq" "tidy")
 # packages+=("git" "curl" "wget" "unzip"  "silversearcher-ag" "ripgrep" "vim" "rclone" "fzf" "jq" "bat" "fd-find" "exa")
 packages+=("mysql-client" "libmysqlclient-dev" "postgresql-client" "libpq-dev" "sqlite3" "libsqlite3-dev" "redis-tools")
@@ -16,5 +16,5 @@ sudo apt-get upgrade -yqq
 sudo apt-get install -yqq --no-install-recommends ${packages[*]}
 
 if [ -e /lib/systemd/system/apache2.service ]; then
-  sudo systemctl disable apache2
+    sudo systemctl disable apache2
 fi
