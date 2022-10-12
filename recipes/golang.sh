@@ -9,3 +9,4 @@ sudo apt-get install -yqq --no-install-recommends golang
 GO_BIN=~/.local/bin go install github.com/junegunn/fzf@latest
 GO_BIN=~/.local/bin go install github.com/x-motemen/ghq@latest
 GO_BIN=~/.local/bin go install github.com/rhysd/actionlint/cmd/actionlint@latest
+GO_BIN=~/.local/bin go install github.com/lighttiger2505/sqls@latest
