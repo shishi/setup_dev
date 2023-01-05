@@ -9,5 +9,5 @@ sudo apt-get install -yqq --no-install-recommends fish
 fish -c 'fish_update_completions'
 
 # fisher
-# curl -fsSL --retry 3 https://git.io/fisher --create-dirs -sLo  ~/.config/fish/functions/fisher.fish
+# curl -kfsSL --retry 3 https://git.io/fisher --create-dirs -sLo  ~/.config/fish/functions/fisher.fish
 # fisher
