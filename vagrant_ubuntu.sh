@@ -28,6 +28,7 @@ cd `dirname $0`
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
 ./recipes/nodejs.sh
+./recipes/golang.sh
 ./recipes/rustup.sh
 # ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
@@ -38,6 +39,7 @@ cd `dirname $0`
 ./recipes/dotfiles.sh
 
 ./recipes/rbenv.sh
+./recipes/golang.sh
 ./recipes/pip.sh
 ./recipes/ngrok.sh
 ./recipes/tailscale.sh

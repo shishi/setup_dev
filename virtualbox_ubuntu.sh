@@ -25,7 +25,8 @@ cd `dirname $0`
 # ./recipes/hashicorp.sh
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
-./recipes/nodejs.sh
+./recipes/nodejs.s
+./recipes/golang.shh
 ./recipes/rustup.sh
 # ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
@@ -39,6 +40,8 @@ cd `dirname $0`
 ./recipes/pip.sh
 ./recipes/ngrok.sh
 ./recipes/tailscale.sh
+./recipes/lazygit.sh
+./recipes/neovim.sh
 
 ./recipes/fish.sh
 

@@ -23,6 +23,7 @@ cd `dirname $0`
 # ./recipes/kvm.sh
 ./recipes/neovim.sh
 ./recipes/nodejs.sh
+./recipes/golang.sh
 ./recipes/rustup.sh
 # ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
@@ -36,6 +37,8 @@ cd `dirname $0`
 ./recipes/pip.sh
 ./recipes/ngrok.sh
 ./recipes/tailscale.sh
+./recipes/lazygit.sh
+./recipes/neovim.sh
 
 ./recipes/fish.sh
 
