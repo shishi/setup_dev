@@ -39,10 +39,11 @@ cd `dirname $0`
 ./recipes/dotfiles.sh
 
 ./recipes/rbenv.sh
-./recipes/golang.sh
 ./recipes/pip.sh
 ./recipes/ngrok.sh
 ./recipes/tailscale.sh
+./recipes/lazygit.sh
+./recipes/neovim.sh
 
 ./recipes/fish.sh
 
