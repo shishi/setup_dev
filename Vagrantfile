@@ -35,7 +35,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision 'shell', privileged: false, inline: <<-SHELL
     mkdir -p /home/vagrant/.local/bin
-    curl -kL https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
+    curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
     mv ./mitamae-x86_64-linux /home/vagrant/.local/bin/mitamae
     ~/.local/bin/mitamae local /vagrant/vagrant_ubuntu.rb
 

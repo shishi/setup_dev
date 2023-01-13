@@ -4,7 +4,20 @@ timezone: Asia/Tokyo
 users:
   - name: shishi
     primary_group: shishi
-    groups: [adm, audio, cdrom, dialout, floppy, video, plugdev, dip, netdev, sudo, lxd]
+    groups:
+      [
+        adm,
+        audio,
+        cdrom,
+        dialout,
+        floppy,
+        video,
+        plugdev,
+        dip,
+        netdev,
+        sudo,
+        lxd,
+      ]
     homedir: /home/shishi
     shell: /usr/bin/bash
     ssh_import_id: gh:shishi
@@ -12,6 +25,6 @@ users:
 
 runcmd:
   - mkdir -p /home/shishi/.local/bin
-  - curl -kL https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
+  - curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
   - mv ./mitamae-x86_64-linux /home/shishi/.local/bin/mitamae
   - chown -R shishi:shishi /home/shishi/.local/

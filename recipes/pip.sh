@@ -2,7 +2,7 @@
 
 set -ex
 
-curl -kfsSL --retry 3 https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+curl -fsSL --retry 3 https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py --user
 rm get-pip.py
 
