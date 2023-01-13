@@ -39,6 +39,6 @@ Vagrant.configure("2") do |config|
     mv ./mitamae-x86_64-linux /home/vagrant/.local/bin/mitamae
     ~/.local/bin/mitamae local /vagrant/vagrant_ubuntu.rb
 
-    # GIT_SSH_COMMAND='ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no' ~/.local/bin/ghq get -p git.pepabo.com/minne/setup-web-application
+    # GIT_SSH_COMMAND='ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no' ~/.local/bin/ghq get -p github.com/shishi/hogehoge
   SHELL
 end
