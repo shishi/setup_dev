@@ -27,7 +27,7 @@ cd `dirname $0`
 ./recipes/rustup.sh
 # ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
-./recipes/yarn.sh
+# ./recipes/yarn.sh
 ./recipes/wslu.sh
 
 ./recipes/key.sh
