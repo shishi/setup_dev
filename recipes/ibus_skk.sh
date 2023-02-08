@@ -17,4 +17,7 @@ dconf write /desktop/ibus/engine/skk/egg-like-newline true
 dconf write /desktop/ibus/engine/skk/page-size 10
 dconf write /desktop/ibus/engine/skk/pagination-start 1
 
+mkdir -p ~/.config/libskk/rules/StickyShift/keymap/
+cp ./files/skk/*.json  ~/.config/libskk/rules/StickyShift/keymap/
+
 ibus-daemon -drx
