@@ -7,7 +7,7 @@ sudo apt-get install -yqq --no-install-recommends ibus-skk yaskkserv skkdic skkd
 
 sudo sed -ie "s|<layout>jp</layout>|<layout>us</layout>|g" /usr/share/ibus/component/skk.xml
 
-sudo cp ./files/yaskkserv /etc/default/yaskkserv
+sudo cp ./files/skk/yaskkserv /etc/default/yaskkserv
 sudo systemctl enable yaskkserv
 sudo systemctl restart yaskkserv
 
