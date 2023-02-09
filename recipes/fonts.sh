@@ -41,15 +41,15 @@ rm -fr PlemolJP_HS_v1.4.0.zip PlemolJP_HS_v1.4.0
 
 curl -fsSLO --retry 3 https://github.com/yuru7/udev-gothic/releases/download/v1.1.0/UDEVGothic_v1.1.0.zip
 unzip -o UDEVGothic_v1.1.0.zip
-cp UDEVGothic_v1.1.0/**/*.ttf ~/.fonts/
+cp UDEVGothic_v1.1.0/*.ttf ~/.fonts/
 rm -fr UDEVGothic_v1.1.0.zip UDEVGothic_v1.1.0
 
 curl -fsSLO --retry 3 https://github.com/yuru7/udev-gothic/releases/download/v1.1.0/UDEVGothic_NF_v1.1.0.zip
 unzip -o UDEVGothic_NF_v1.1.0.zip
-cp UDEVGothic_NF_v1.1.0/**/*.ttf ~/.fonts/
+cp UDEVGothic_NF_v1.1.0/*.ttf ~/.fonts/
 rm -fr UDEVGothic_NF_v1.1.0.zip UDEVGothic_NF_v1.1.0
 
 curl -fsSLO --retry 3 https://github.com/yuru7/BIZTER/releases/download/v0.0.1/BIZTER_v0.0.1.zip
 unzip -o BIZTER_v0.0.1.zip
-cp BIZTER_v0.0.1/**/*.ttf ~/.fonts/
+cp BIZTER_v0.0.1/*.ttf ~/.fonts/
 rm -fr BIZTER_v0.0.1.zip BIZTER_v0.0.1
