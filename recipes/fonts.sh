@@ -11,12 +11,12 @@ mkdir -p ~/.fonts
 
 curl -fsSLO --retry 3 https://github.com/yuru7/HackGen/releases/download/v2.8.0/HackGen_v2.8.0.zip
 unzip HackGen_v2.8.0.zip
-cp HackGen_v2.8.0/**/*.ttf ~/.fonts/
+cp HackGen_v2.8.0/*.ttf ~/.fonts/
 rm -fr HackGen_v2.8.0.zip HackGen_v2.8.0
 
 curl -fsSLO --retry 3 https://github.com/yuru7/HackGen/releases/download/v2.8.0/HackGen_NF_v2.8.0.zip
 unzip HackGen_NF_v2.8.0.zip
-cp HackGen_NF_v2.8.0/**/*.ttf ~/.fonts/
+cp HackGen_NF_v2.8.0/*.ttf ~/.fonts/
 rm -fr HackGen_NF_v2.8.0.zip HackGen_NF_v2.8.0
 
 curl -fsSLO --retry 3 https://github.com/yuru7/PlemolJP/releases/download/v1.4.0/PlemolJP_v1.4.0.zip
