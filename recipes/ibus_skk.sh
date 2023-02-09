@@ -18,6 +18,8 @@ dconf write /desktop/ibus/engine/skk/page-size 10
 dconf write /desktop/ibus/engine/skk/pagination-start 1
 
 mkdir -p ~/.config/libskk/rules/StickyShift/keymap/
-cp ./files/skk/*.json  ~/.config/libskk/rules/StickyShift/keymap/
+cp ./files/skk/metadata.json  ~/.config/libskk/rules/StickyShift/
+cp ./files/skk/hiragana.json  ~/.config/libskk/rules/StickyShift/keymap/
+cp ./files/skk/katakana.json  ~/.config/libskk/rules/StickyShift/keymap/
 
 ibus-daemon -drx

@@ -45,7 +45,7 @@ cd `dirname $0`
 # ./recipes/google_chrome.sh
 # ./recipes/vivaldi.sh
 # ./recipes/edge.sh
-# ./recipes/ibus_skk.sh
+# ./recipes/uim_skk.sh
 # ./recipes/vscode.sh
 
 export DEBIAN_FRONTEND=dialog
