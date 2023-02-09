@@ -19,36 +19,36 @@ cd `dirname $0`
 
 ./recipes/docker.sh
 # ./recipes/docker-compose.sh
-./recipes/emacs.sh
 ./recipes/google_cloud_sdk.sh
 # ./recipes/hashicorp.sh
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
-./recipes/nodejs.sh
-./recipes/golang.sh
-./recipes/rustup.sh
 # ./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
-# ./recipes/yarn.sh
 ./recipes/wslu.sh
 
 ./recipes/key.sh
 ./recipes/dotfiles.sh
 
+./recipes/nodejs.sh
+./recipes/golang.sh
+./recipes/rustup.sh
 ./recipes/rbenv.sh
 ./recipes/pip.sh
 ./recipes/ngrok.sh
 ./recipes/tailscale.sh
 ./recipes/lazygit.sh
 ./recipes/neovim.sh
+./recipes/emacs.sh
 
 ./recipes/fish.sh
 
 ./recipes/dconf_editor.sh
 ./recipes/fonts.sh
 ./recipes/google_chrome.sh
-./recipes/ibus_skk.sh
 ./recipes/vivaldi.sh
+./recipes/edge.sh
+./recipes/ibus_skk.sh
 ./recipes/vscode.sh
 
 export DEBIAN_FRONTEND=dialog
