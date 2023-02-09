@@ -9,7 +9,7 @@ echo "
   path = /home/${USER}/dev
   writable = yes
   browseable = yes
-  public = yes
+  # public = yes
   force create mode = 644
   force directory mode = 755
   force user = ${USER}
