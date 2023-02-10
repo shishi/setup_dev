@@ -53,3 +53,20 @@ curl -fsSLO --retry 3 https://github.com/yuru7/BIZTER/releases/download/v0.0.1/B
 unzip -o BIZTER_v0.0.1.zip
 cp BIZTER_v0.0.1/*.ttf ~/.fonts/
 rm -fr BIZTER_v0.0.1.zip BIZTER_v0.0.1
+
+curl -fsSL --retry 3 "https://fonts.google.com/download?family=BIZ%20UDGothic" -o BIZ_UDGothic.zip
+unzip -o BIZ_UDGothic.zip
+cp BIZUDGothic-*.ttf ~/.fonts/
+rm -fr BIZ_UDGothic* OFL.txt
+
+curl -fsSL --retry 3 "https://fonts.google.com/download?family=BIZ%20UDPGothic" -o BIZ_UDPGothic.zip
+unzip -o BIZ_UDPGothic.zip
+cp BIZUDPGothic-*.ttf ~/.fonts/
+rm -fr BIZ_UDPGothic* OFL.txt
+
+curl -fsSL --retry 3 "https://fonts.google.com/download?family=BIZ%20UDPMincho" -o BIZ_UDPMincho.zip
+unzip -o BIZ_UDPMincho.zip
+cp BIZUDPMincho-*.ttf ~/.fonts/
+rm -fr BIZ_UDPMincho* OFL.txt
+
+
