@@ -26,7 +26,7 @@ YASKKSERV_BIN="yaskkserv_hairy"
 #HAIRY_OPTS="${NORMAL_OPTS} --server-completion-midasi-length=2048 --server-completion-midasi-string-size=262144 --server-completion-test=1 --google-japanese-input=disable --google-japanese-input-timeout=2.5"
 # for HAIRY (usage example to enable google japanese input)
 #HAIRY_OPTS="${NORMAL_OPTS} --server-completion-test=1 --google-japanese-input=notfound-input-suggest --google-suggest"
-HAIRY_OPTS="${NORMAL_OPTS} --max-connection=32 --google-japanese-input=dictionary --google-japanese-input-timeout=1.0 --google-suggest --google-cache=2048 --google-cache-file=/tmp/yaskkserv/yaskkserv.cache https://www.google.com https://suggest.google.com"
+HAIRY_OPTS="${NORMAL_OPTS} --max-connection=32 --google-japanese-input=dictionary --google-japanese-input-timeout=1.0 --google-suggest https://www.google.com https://suggest.google.com"
 
 DAEMON_OPTS="${HAIRY_OPTS}"
 #DAEMON_OPTS="${NORMAL_OPTS}"
@@ -80,4 +80,3 @@ do
     DICBN=`basename $DIC`
     DIC_LIST="${DIC_LIST} /usr/share/yaskkserv/${DICBN}.yaskkserv"
 done
-
