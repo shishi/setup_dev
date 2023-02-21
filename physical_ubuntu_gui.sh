@@ -22,8 +22,8 @@ cd `dirname $0`
 ./recipes/google_cloud_sdk.sh
 ./recipes/hashicorp.sh
 ./recipes/inotify.sh
-# ./recipes/kvm.sh
-# ./recipes/samba.sh
+./recipes/kvm.sh
+./recipes/samba.sh
 ./recipes/vscode_liveshare.sh
 # ./recipes/wslu.sh
 
