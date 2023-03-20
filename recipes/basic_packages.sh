@@ -2,7 +2,7 @@
 
 set -e
 
-packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "luajit" "luarocks" "gpg" "pass")
+packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "luajit" "luarocks" "gpg" "pass" "xsel")
 packages+=("git" "curl" "wget" "unzip" "silversearcher-ag" "ripgrep" "vim" "rclone" "jq" "tidy")
 packages+=("mysql-client" "libmysqlclient-dev" "postgresql-client" "libpq-dev" "sqlite3" "libsqlite3-dev" "redis-tools")
 packages+=("imagemagick" "libmagickwand-dev")
