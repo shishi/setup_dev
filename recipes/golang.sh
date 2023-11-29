@@ -11,6 +11,7 @@ export GOBIN=${HOME}/.local/bin
 
 go install github.com/junegunn/fzf@latest
 go install github.com/lighttiger2505/sqls@latest
+go install github.com/mattn/efm-langserver@latest
 go install github.com/rhysd/actionlint/cmd/actionlint@latest
 go install github.com/x-motemen/ghq@latest
 go install github.com/yoheimuta/protolint/cmd/protolint@latest
