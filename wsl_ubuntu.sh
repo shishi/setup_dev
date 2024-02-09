@@ -21,7 +21,7 @@ cd `dirname $0`
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
 # ./recipes/samba.sh
-./recipes/vscode_liveshare.sh
+# ./recipes/vscode_liveshare.sh
 ./recipes/wslu.sh
 
 ./recipes/key.sh
