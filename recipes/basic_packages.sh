@@ -2,7 +2,7 @@
 
 set -e
 
-packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "python3-venv" "luajit" "luarocks" "gpg")
+packages=("build-essential" "pkg-config" "software-properties-common" "python-is-python3" "python3-venv" "pipx" "luajit" "luarocks" "gpg")
 packages+=("pass" "xsel")
 packages+=("git" "curl" "wget" "unzip" "unar" "silversearcher-ag" "vim" "rclone" "jq" "tidy" "protobuf-compiler" "poppler-utils" "poppler-data" "clang-format")
 packages+=("mysql-client" "libmysqlclient-dev" "postgresql-client" "libpq-dev" "sqlite3" "libsqlite3-dev" "redis-tools")

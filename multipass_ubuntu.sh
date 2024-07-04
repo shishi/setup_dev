@@ -9,14 +9,14 @@ export DEBIAN_FRONTEND=noninteractive
 cd `dirname $0`
 
 
-./recipes/sudo_with_nopassword.sh
+# ./recipes/sudo_with_nopassword.sh
 
-./recipes/add_vboxsf_group.sh
+# ./recipes/add_vboxsf_group.sh
 # ./recipes/wslconf.sh
 ./recipes/iptables_legacy.sh
 
 ./recipes/basic_packages.sh
-./recipes/virtualbox_guests.sh
+# ./recipes/virtualbox_guests.sh
 
 ./recipes/docker.sh
 # ./recipes/docker-compose.sh
@@ -31,8 +31,8 @@ cd `dirname $0`
 ./recipes/key.sh
 ./recipes/dotfiles.sh
 
-./recipes/nodejs.s
-./recipes/golang.shh
+./recipes/nodejs.sh
+./recipes/golang.sh
 ./recipes/rustup.sh
 ./recipes/rbenv.sh
 ./recipes/pip.sh
