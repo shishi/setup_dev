@@ -20,7 +20,6 @@ cd `dirname $0`
 
 ./recipes/docker.sh
 # ./recipes/docker-compose.sh
-./recipes/emacs.sh
 ./recipes/google_cloud_sdk.sh
 # ./recipes/hashicorp.sh
 ./recipes/inotify.sh
@@ -40,6 +39,8 @@ cd `dirname $0`
 ./recipes/tailscale.sh
 ./recipes/lazygit.sh
 ./recipes/neovim.sh
+./recipes/emacs.sh
+./recipes/1password_cli.sh
 
 ./recipes/fish.sh
 

@@ -39,6 +39,7 @@ cd `dirname $0`
 ./recipes/lazygit.sh
 ./recipes/neovim.sh
 ./recipes/emacs.sh
+./recipes/1password_cli.sh
 
 ./recipes/fish.sh
 

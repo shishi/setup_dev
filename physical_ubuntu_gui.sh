@@ -12,7 +12,7 @@ cd `dirname $0`
 
 # ./recipes/add_vboxsf_group.sh
 # ./recipes/wslconf.sh
-./recipes/iptables_legacy.sh
+# ./recipes/iptables_legacy.sh
 
 ./recipes/basic_packages.sh
 # ./recipes/virtualbox_guests.sh
@@ -39,6 +39,7 @@ cd `dirname $0`
 ./recipes/lazygit.sh
 ./recipes/neovim.sh
 ./recipes/emacs.sh
+./recipes/1password_cli.sh
 
 ./recipes/fish.sh
 
