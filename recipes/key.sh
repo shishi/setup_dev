@@ -28,4 +28,7 @@ gpg --import --allow-secret-key-import ~/key/gpg/shishi.sec_sub.gpg
 gpg --import-ownertrust ~/key/gpg/shishi.ownertrust
 gpg --import --allow-secret-key-import ~/key/gpg/shishisn.sec_sub.gpg
 
-# pass init shishi@srevo.net
+echo '# use-keyboxd' > ~/.gnupg/common.conf
+
+pass init shishi@srevo.net
+
