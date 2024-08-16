@@ -13,9 +13,16 @@ sudo apt-get install -yqq --no-install-recommends docker-ce docker-ce-cli contai
 
 sudo usermod -aG docker ${USER}
 sudo systemctl enable --now docker
+sudo systemctl stop docker
 
-sudo echo <<EOF >> /etc/systemd/system/docker.service.d/override.conf
+sudo mkdir -p /etc/systemd/system/docker.service.d
+sudo rm -f /etc/systemd/system/docker.service.d/override.conf
+sudo touch /etc/systemd/system/docker.service.d/override.conf
+cat << EOF | sudo tee /etc/systemd/system/docker.service.d/override.conf
 [Service]
 ExecStart=
 ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:2375
 EOF
+
+sudo systemctl daemon-reload
+sudo systemctl start docker

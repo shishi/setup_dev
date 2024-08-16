@@ -15,7 +15,7 @@ cd `dirname $0`
 
 # ./recipes/add_vboxsf_group.sh
 # ./recipes/wslconf.sh
-./recipes/iptables_legacy.sh
+# ./recipes/iptables_legacy.sh
 
 ./recipes/basic_packages.sh
 # ./recipes/virtualbox_guests.sh
@@ -28,7 +28,7 @@ cd `dirname $0`
 # ./recipes/kvm.sh
 # ./recipes/samba.sh
 # ./recipes/yarn.sh
-./recipes/wslu.sh
+# ./recipes/wslu.sh
 
 ./recipes/key.sh
 ./recipes/dotfiles.sh
