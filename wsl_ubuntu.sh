@@ -16,7 +16,6 @@ cd `dirname $0`
 
 ./recipes/docker.sh
 # ./recipes/docker-compose.sh
-./recipes/google_cloud_sdk.sh
 # ./recipes/hashicorp.sh
 ./recipes/inotify.sh
 # ./recipes/kvm.sh
@@ -26,14 +25,16 @@ cd `dirname $0`
 ./recipes/key.sh
 ./recipes/dotfiles.sh
 
-./recipes/nodejs.sh
-./recipes/golang.sh
-./recipes/rustup.sh
-./recipes/rbenv.sh
-./recipes/pip.sh
+./recipes/mise.sh
+# ./recipes/nodejs.sh
+# ./recipes/golang.sh
+# ./recipes/rustup.sh
+# ./recipes/rbenv.sh
+# ./recipes/pip.sh
 ./recipes/ngrok.sh
 ./recipes/tailscale.sh
 ./recipes/lazygit.sh
+./recipes/google_cloud_sdk.sh
 ./recipes/neovim.sh
 ./recipes/emacs.sh
 ./recipes/1password_cli.sh
